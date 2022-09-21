@@ -3,6 +3,7 @@
 console.info('Hello')
 var myNode = document.createElement('div');
 document.getElementById('digitalClock').appendChild(myNode);
+
 var updateTime = function(){
     var myDate = new Date();
     myNode.innerHTML = myDate.toTimeString().substring(0,8);
