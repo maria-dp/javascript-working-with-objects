@@ -50,20 +50,22 @@
           <form id="addStaffForm">
             <div>
               <label for="staffName">Name:</label>
-              <input type="text" name="staffName" id="staffName" />
+              <input type="text" name="staffName" id="staffName" required />
             </div>
             <div>
               <label for="staffEmail">Email:</label>
-              <input type="text" name="staffEmail" id="staffEmail" />
+              <input type="email" name="staffEmail" id="staffEmail" required/>
             </div>
             <div>
               <input type="submit" value="Add" class="btn" />
             </div>
           </form>
         </div>
+        <p id="myParagraph">This is an event test</p>
       </div>
 
       <footer>&copy; 2022 mustbebuilt</footer>
     </div>
+    <script src="js/staff.js"></script>
   </body>
 </html>
